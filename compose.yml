@@ -1,0 +1,8 @@
+services:
+  date-night-generator:
+  container_name: date-night-generator
+    build: .
+    ports:
+      - "5555:5000" # Map host port 5000 to container port 5000
+    volumes:
+      - ./movies.txt:/app/movies.txt:ro # Mount movies.txt into the container as read-only
