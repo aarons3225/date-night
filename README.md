@@ -1,6 +1,8 @@
 # date-night
 An at home date night generator that has food recommendations based on movies.
 
+https://github.com/user-attachments/assets/9f42fdce-b53c-4aa5-be3f-d01f31eae03b
+
 # Requirements
 - docker
 - python3
